@@ -1,0 +1,62 @@
+{
+    "sticker": {
+        "combo": {
+            "4x": 1000,
+            "3x": 500,
+            "2x": 100,
+            "1x": 10
+        },
+        "rarity": {
+            "holo": 400,
+            "foil": 300,
+            "glitter": 100,
+            "paper": 50
+        },
+        "origin": {
+            "player_god": 500,
+            "team_god": 450,
+            "team": 300,
+            "player": 200,
+            "default_rare": 100,
+            "default": 90
+        }
+    },
+    "player_god": [
+        "s1mple",
+        "ZywOo",
+        "NiKo",
+        "sh1ro",
+        "Ax1Le",
+        "HObbit",
+        "electroNic",
+        "YEKINDAR",
+        "b1t",
+        "Jame",
+        "dev1ce",
+        "huNter-",
+        "blameF",
+        "NAF",
+        "KSCERATO",
+        "stavn",
+        "Twistzz",
+        "ropz",
+        "EliGE",
+        "broky"
+    ],
+    "team_god": [
+        "FaZe",
+        "Natus Vincere",
+        "Cloud9",
+        "ENCE",
+        "G2",
+        "FURIA",
+        "Astralis",
+        "Entropiq",
+        "MOUZ",
+        "Liquid",
+        "Copenhagen Flames",
+        "paiN",
+        "9z",
+        "Spirit"
+    ]
+}
