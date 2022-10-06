@@ -7,12 +7,15 @@ import json
 
 
 class MobileAuth:
-    def __init__(self, path, password):
-        self.password = password
-        with open(path, "r") as read_file:
-            data = json.load(read_file)
-            self.username = data["account_name"]
-            self.secret = data["shared_secret"]
+    def __init__(self, steam_account_path):
+        account: object
+        with open(steam_account_path, "r") as sa:
+            account = json.load(sa)
+        self.password = account["password"]
+        with open(account["mafile_path"], "r") as mafile:
+            account = json.load(mafile)
+        self.username = account["account_name"]
+        self.secret = account["shared_secret"]
 
 
 def check_auth(browser: WebDriver):

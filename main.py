@@ -8,7 +8,7 @@ from evaluation import Evaluator
 
 
 def main():
-    user = auth.MobileAuth('C:/Users/zar4za/Desktop/Steam Trade Bot/76561199207781376.maFile', 'SfHIxC53T6')
+    user = auth.MobileAuth('steam_account.json')
     browser = webdriver.Chrome(ChromeDriverManager().install())
     auth.cookie_auth(browser)
     if not auth.check_auth(browser):
